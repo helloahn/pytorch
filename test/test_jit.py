@@ -13201,6 +13201,7 @@ class TestRecursiveScript(JitTestCase):
             ('my_empty_dict', {}),
             ('my_none', None),
         )
+
         class M(torch.nn.Module):
             # TODO: re-enable this once this test is in a Python 3-only syntax
             # file
